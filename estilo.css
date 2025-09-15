@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+
+
+
+body {
+    background-color: beige;
+
+.tituloPrincipal {
+  font-family: "Asimovian", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+}
+
+.circulito {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(252, 0, 0);
+    border: 1px solid black;
+    position: absolute;
+}
+
+.cuadrado:hover {
+   animation: redondear 2s linear infinite alternate;
+}
+
+.cuadrado2 {
+    width: 25%;
+    height: 25%;
+    background-color: rgb(3, 154, 255);
+    border: 1px solid black;
+}
+
+
+
+/***********************/
+/* Estilo dibujo*/
+#tituloDibujo {
+text-align: center;
+}
+
+#lienzo {
+width: 700px;
+height: 700px;
+background-image: url("https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid black;
+margin: 0 auto;
+position: relative;
+}
+
+.circulo {
+    width: 30px; /* ancho */
+    height: 30px; /* alto */
+    background-color: rgb(0, 0, 0); /* color de fondo */
+    border-radius: 50%; /* redondea los bordes de la figura*/
+    border: 3px solid black; /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 150px; /* posición desde el borde superior del lienzo */
+    left: 370px; /* posición desde el borde izquierdo del lienzo */
+}
+
+#ojoIzq {
+    top: 149px; /* posición desde el borde superior del lienzo */
+    left: 315px; /* posición desde el borde izquierdo del lienzo */
+  
+
+    
+}
+
+
+}

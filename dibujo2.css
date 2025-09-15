@@ -1,0 +1,68 @@
+/***********************/
+/* Estilo dibujo*/
+#tituloDibujo {
+text-align: center;
+}
+body {
+    background-color: rgb(4, 124, 236);
+
+.tituloPrincipal {
+  font-family: "Asimovian", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#lienzo {
+width: 700px;
+height: 700px;
+background-image: url("https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid black;
+margin: 0 auto;
+position: relative;
+}
+
+.circulo {
+    width: 1px;
+    height: 1px;
+    background-color: rgb(0, 4, 255);
+    border-radius: 50%;
+    position: absolute;
+
+
+}
+
+#ojoIzq {
+    background-color: rgb(255 255 255);
+    width: 35px;
+    height: 46px;
+    top: 21%;
+    left: 45%;
+    transform: rotate(0deg);
+}
+#ojoDer {
+ background-color: rgb(255 255 255);
+    width: 35px;
+    height: 46px;
+    top: 21%;
+    left: 53%;
+    transform: rotate(0deg);
+}
+
+#pupilaIzq {
+    background-color: rgb(24, 24, 24);
+    width: 25px;
+    height: 25px;
+    top: 23%;
+    left: 47%;
+    transform: rotate(33deg);
+}
+#pupilaDer {
+    background-color: rgb(20, 19, 19);
+    width: 25px;
+    height: 25px;
+    top: 23%;
+    left: 55%;
+    transform: rotate(33deg);
+}
